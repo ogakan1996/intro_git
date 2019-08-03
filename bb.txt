@@ -1,1 +1,4 @@
 ’Ç‰Áƒtƒ@ƒCƒ‹
+git add
+git commit 
+git rm
