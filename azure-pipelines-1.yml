@@ -12,5 +12,5 @@ pool:
 steps:
 
 - script: |
-   Get-NetIPConfiguration
+   echo hello from Windows
   displayName: 'OCI CLI TEST'
