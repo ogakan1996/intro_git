@@ -12,6 +12,5 @@ pool:
 steps:
 
 - script: |
-   export OCI_CLI_AUTH=instance_principal
-    oci os na get
+   Get-NetIPConfiguration
   displayName: 'OCI CLI TEST'
