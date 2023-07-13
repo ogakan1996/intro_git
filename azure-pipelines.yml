@@ -4,10 +4,10 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- main
 
 pool:
-  vmImage: OCI-Devops-pool
+  vmImage: windows-latest
 
 steps:
 - script: echo Hello, world!
