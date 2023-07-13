@@ -1,0 +1,17 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  name: OCI-Devops-pool
+
+steps:
+
+- script: |
+   export OCI_CLI_AUTH=instance_principal
+    oci os na get
+  displayName: 'Run a multi-line script'
