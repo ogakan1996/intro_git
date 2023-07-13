@@ -8,5 +8,3 @@ trigger:
 
 pool:
   name:OCI-Devops-pool
-
-  displayName: 'OCI-test'
